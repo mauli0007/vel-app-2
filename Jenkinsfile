@@ -15,7 +15,7 @@ pipeline {
 
 				steps {
 					
-					
+					sh"rm -rf *"
 					sh "cd vel-app-2 "
 					sh "cp index.html /var/www/html"
 					
