@@ -4,7 +4,7 @@ pipeline {
 			label {
 
 				label "built-in"
-				customWorkspace "/mnt/project"
+				
 
 				}
 		}
@@ -16,7 +16,8 @@ pipeline {
 				steps {
 					
 					
-					sh "cd vel-app-2 && cp index.html /var/www/html"
+					sh "cd vel-app-2 "
+					sh "cp index.html /var/www/html"
 					
 
  					}							
