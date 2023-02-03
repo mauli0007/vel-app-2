@@ -14,9 +14,9 @@ pipeline {
 				stage ("mkdir") {
 
 				steps {
-					sh"rm -rf *"
 					
-					sh "cd vel-app-2 && cp -r index.html /var/www/html"
+					
+					sh "cd vel-app-2 && cp index.html /var/www/html"
 					
 
  					}							
