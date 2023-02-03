@@ -15,7 +15,7 @@ pipeline {
 
 				steps {
 					
-					sh "cd /mnt/vel-app-2/ && index.html /var/www/html "
+					sh "cd /mnt/vel-app-2/ && cp -r index.html /var/www/html "
  					}							
 				}
 
