@@ -15,7 +15,6 @@ pipeline {
 
 				steps {
 					
-					sh"rm -rf *"
 					sh "cd /mnt/vel-app-2/ && index.html /var/www/html "
  					}							
 				}
